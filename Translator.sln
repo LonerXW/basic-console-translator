@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translator", "Translator\Translator.csproj", "{E42BA4BE-92DE-4CD3-82ED-AEAA51D49E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Translator.Tests", "Translator.Tests\Translator.Tests.csproj", "{1B4D2313-A6FF-455B-A7A5-27002DFFB2C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E42BA4BE-92DE-4CD3-82ED-AEAA51D49E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42BA4BE-92DE-4CD3-82ED-AEAA51D49E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42BA4BE-92DE-4CD3-82ED-AEAA51D49E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42BA4BE-92DE-4CD3-82ED-AEAA51D49E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4D2313-A6FF-455B-A7A5-27002DFFB2C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4D2313-A6FF-455B-A7A5-27002DFFB2C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4D2313-A6FF-455B-A7A5-27002DFFB2C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4D2313-A6FF-455B-A7A5-27002DFFB2C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
