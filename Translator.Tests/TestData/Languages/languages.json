@@ -1,0 +1,10 @@
+{
+    "availableLanguages": [
+        {
+            "code": "en-uk",
+            "name": "English-Ukrainian",
+            "sourceLanguage": "English",
+            "targetLanguage": "Ukrainian"
+        }
+    ]
+} 
