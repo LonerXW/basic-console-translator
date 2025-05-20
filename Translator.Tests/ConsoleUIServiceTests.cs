@@ -1,47 +1,44 @@
-using System;
-using System.IO;
 using Translator.Services.UI;
 using Xunit;
 using Assert = Xunit.Assert;
 
-namespace Translator.Tests
+namespace Translator.Tests;
+
+public class ConsoleUIServiceTests
 {
-    public class ConsoleUIServiceTests
+    [Fact]
+    public void DisplayMessage_WritesToConsole()
     {
-        [Fact]
-        public void DisplayMessage_WritesToConsole()
+        var originalOut = Console.Out;
+        try
         {
-            var originalOut = Console.Out;
-            try
+            using (var sw = new StringWriter())
             {
-                using (var sw = new StringWriter())
-                {
-                    Console.SetOut(sw);
-                    var service = new ConsoleUIService();
-                    service.DisplayMessage("test");
-                    Assert.Contains("test", sw.ToString());
-                }
-            }
-            finally
-            {
-                Console.SetOut(originalOut);
+                Console.SetOut(sw);
+                var service = new ConsoleUIService();
+                service.DisplayMessage("test");
+                Assert.Contains("test", sw.ToString());
             }
         }
-
-        [Fact]
-        public void GetUserInput_ReadsFromConsole()
+        finally
         {
-            var originalIn = Console.In;
-            try
-            {
-                Console.SetIn(new StringReader("input\n"));
-                var service = new ConsoleUIService();
-                Assert.Equal("input", service.GetUserInput());
-            }
-            finally
-            {
-                Console.SetIn(originalIn);
-            }
+            Console.SetOut(originalOut);
         }
     }
-} 
+
+    [Fact]
+    public void GetUserInput_ReadsFromConsole()
+    {
+        var originalIn = Console.In;
+        try
+        {
+            Console.SetIn(new StringReader("input\n"));
+            var service = new ConsoleUIService();
+            Assert.Equal("input", service.GetUserInput());
+        }
+        finally
+        {
+            Console.SetIn(originalIn);
+        }
+    }
+}

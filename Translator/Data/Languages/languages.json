@@ -1,64 +1,64 @@
 {
-    "AvailableLanguages": [
-        {
-            "Code": "en-uk",
-            "Name": "English-Ukrainian",
-            "SourceLanguage": "English",
-            "TargetLanguage": "Ukrainian",
-            "SourceScript": "Latin",
-            "TargetScript": "Cyrillic",
-            "SourceFlag": "EN",
-            "TargetFlag": "UA"
-        },
-        {
-            "Code": "uk-en",
-            "Name": "Ukrainian-English",
-            "SourceLanguage": "Ukrainian",
-            "TargetLanguage": "English",
-            "SourceScript": "Cyrillic",
-            "TargetScript": "Latin",
-            "SourceFlag": "UA",
-            "TargetFlag": "EN"
-        },
-        {
-            "Code": "es-en",
-            "Name": "Spanish-English",
-            "SourceLanguage": "Spanish",
-            "TargetLanguage": "English",
-            "SourceScript": "Latin",
-            "TargetScript": "Latin",
-            "SourceFlag": "ES",
-            "TargetFlag": "EN"
-        },
-        {
-            "Code": "en-es",
-            "Name": "English-Spanish",
-            "SourceLanguage": "English",
-            "TargetLanguage": "Spanish",
-            "SourceScript": "Latin",
-            "TargetScript": "Latin",
-            "SourceFlag": "EN",
-            "TargetFlag": "ES"
-        },
-        {
-            "Code": "pl-en",
-            "Name": "Polish-English",
-            "SourceLanguage": "Polish",
-            "TargetLanguage": "English",
-            "SourceScript": "Latin",
-            "TargetScript": "Latin",
-            "SourceFlag": "PL",
-            "TargetFlag": "EN"
-        },
-        {
-            "Code": "en-pl",
-            "Name": "English-Polish",
-            "SourceLanguage": "English",
-            "TargetLanguage": "Polish",
-            "SourceScript": "Latin",
-            "TargetScript": "Latin",
-            "SourceFlag": "EN",
-            "TargetFlag": "PL"
-        }
-    ]
+  "AvailableLanguages": [
+    {
+      "Code": "en-uk",
+      "Name": "English-Ukrainian",
+      "SourceLanguage": "English",
+      "TargetLanguage": "Ukrainian",
+      "SourceScript": "Latin",
+      "TargetScript": "Cyrillic",
+      "SourceFlag": "EN",
+      "TargetFlag": "UA"
+    },
+    {
+      "Code": "uk-en",
+      "Name": "Ukrainian-English",
+      "SourceLanguage": "Ukrainian",
+      "TargetLanguage": "English",
+      "SourceScript": "Cyrillic",
+      "TargetScript": "Latin",
+      "SourceFlag": "UA",
+      "TargetFlag": "EN"
+    },
+    {
+      "Code": "es-en",
+      "Name": "Spanish-English",
+      "SourceLanguage": "Spanish",
+      "TargetLanguage": "English",
+      "SourceScript": "Latin",
+      "TargetScript": "Latin",
+      "SourceFlag": "ES",
+      "TargetFlag": "EN"
+    },
+    {
+      "Code": "en-es",
+      "Name": "English-Spanish",
+      "SourceLanguage": "English",
+      "TargetLanguage": "Spanish",
+      "SourceScript": "Latin",
+      "TargetScript": "Latin",
+      "SourceFlag": "EN",
+      "TargetFlag": "ES"
+    },
+    {
+      "Code": "pl-en",
+      "Name": "Polish-English",
+      "SourceLanguage": "Polish",
+      "TargetLanguage": "English",
+      "SourceScript": "Latin",
+      "TargetScript": "Latin",
+      "SourceFlag": "PL",
+      "TargetFlag": "EN"
+    },
+    {
+      "Code": "en-pl",
+      "Name": "English-Polish",
+      "SourceLanguage": "English",
+      "TargetLanguage": "Polish",
+      "SourceScript": "Latin",
+      "TargetScript": "Latin",
+      "SourceFlag": "EN",
+      "TargetFlag": "PL"
+    }
+  ]
 } 

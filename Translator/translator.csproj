@@ -15,13 +15,14 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Data\Languages\es-en\" />
-      <Folder Include="Data\Languages\pl-en\" />
+        <Folder Include="Data\Languages\en-uk\done\"/>
+        <Folder Include="Data\Languages\es-en\"/>
+        <Folder Include="Data\Languages\pl-en\"/>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="Moq" Version="4.20.70" />
-      <PackageReference Include="xunit" Version="2.6.5" />
+        <PackageReference Include="Moq" Version="4.20.70"/>
+        <PackageReference Include="xunit" Version="2.6.5"/>
     </ItemGroup>
 
 </Project>
