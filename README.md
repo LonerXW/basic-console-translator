@@ -27,6 +27,22 @@ A console-based translator application that works with multiple language pairs u
 
 - **translator.Tests/** - Unit tests for all components
 
+## Documentation
+
+For comprehensive technical documentation, please refer to the `refman.pdf` file. This documentation provides detailed information about:
+
+- Complete class reference with all available methods and properties
+- Detailed method descriptions and usage examples
+- Code structure and architecture overview
+- Working code examples for common use cases
+- Service interfaces and their implementations
+
+The documentation is particularly useful for developers who want to:
+- Understand the internal workings of the translator
+- Extend the functionality with new features
+- Integrate the translator into other applications
+- Debug and troubleshoot issues
+
 ## Getting Started
 
 ### Prerequisites
