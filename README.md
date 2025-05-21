@@ -63,6 +63,74 @@ To add new words or phrases:
 2. Edit the `words.json` or `phrases.json` files
 3. Follow the existing JSON format
 
+### Adding New Language Support
+
+To add support for a new language pair (e.g., English-French):
+
+1. Create a new directory in `Data/Languages/` with the language pair code (e.g., `en-fr` for English to French)
+   ```
+   Data/Languages/en-fr/
+   ```
+
+2. Create two JSON files in the new directory:
+   - `words.json` - for individual word translations
+   - `phrases.json` - for phrase translations
+
+3. Format for `words.json`:
+   ```json
+   {
+     "translations": {
+       "source_word": "translated_word",
+       "hello": "bonjour",
+       "goodbye": "au revoir"
+     }
+   }
+   ```
+
+4. Format for `phrases.json`:
+   ```json
+   {
+     "translations": {
+       "source_phrase": "translated_phrase",
+       "how are you": "comment allez-vous",
+       "good morning": "bonjour"
+     }
+   }
+   ```
+
+5. Update the language configuration in `Data/languages.json` to include the new language pair:
+   ```json
+   {
+     "languagePairs": [
+       {
+         "code": "en-fr",
+         "sourceLanguage": "English",
+         "targetLanguage": "French",
+         "sourceFlag": "🇬🇧",
+         "targetFlag": "🇫🇷"
+       }
+     ]
+   }
+   ```
+
+   Configuration fields:
+   - `code`: Language pair code (e.g., "en-fr")
+   - `sourceLanguage`: Name of the source language
+   - `targetLanguage`: Name of the target language
+   - `sourceFlag`: Emoji flag of the source language country
+   - `targetFlag`: Emoji flag of the target language country
+
+   Purpose of flags:
+   - Flags (`sourceFlag` and `targetFlag`):
+     - Provide visual identification of languages in the user interface
+     - Make language selection more intuitive
+     - Help users quickly identify language pairs
+     - Improve the overall user experience
+
+6. Restart the application to see the new language pair in the selection menu
+
+Note: Make sure to use proper UTF-8 encoding when creating the dictionary files to support special characters and diacritical marks.
+
 ## Running Tests
 
 You can run the tests in two ways:

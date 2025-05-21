@@ -5,60 +5,48 @@
       "Name": "English-Ukrainian",
       "SourceLanguage": "English",
       "TargetLanguage": "Ukrainian",
-      "SourceScript": "Latin",
-      "TargetScript": "Cyrillic",
-      "SourceFlag": "EN",
-      "TargetFlag": "UA"
+      "SourceFlag": "🇬🇧",
+      "TargetFlag": "🇺🇦"
     },
     {
       "Code": "uk-en",
       "Name": "Ukrainian-English",
       "SourceLanguage": "Ukrainian",
       "TargetLanguage": "English",
-      "SourceScript": "Cyrillic",
-      "TargetScript": "Latin",
-      "SourceFlag": "UA",
-      "TargetFlag": "EN"
+      "SourceFlag": "🇺🇦",
+      "TargetFlag": "🇬🇧"
     },
     {
       "Code": "es-en",
       "Name": "Spanish-English",
       "SourceLanguage": "Spanish",
       "TargetLanguage": "English",
-      "SourceScript": "Latin",
-      "TargetScript": "Latin",
-      "SourceFlag": "ES",
-      "TargetFlag": "EN"
+      "SourceFlag": "🇪🇸",
+      "TargetFlag": "🇬🇧"
     },
     {
       "Code": "en-es",
       "Name": "English-Spanish",
       "SourceLanguage": "English",
       "TargetLanguage": "Spanish",
-      "SourceScript": "Latin",
-      "TargetScript": "Latin",
-      "SourceFlag": "EN",
-      "TargetFlag": "ES"
+      "SourceFlag": "🇬🇧",
+      "TargetFlag": "🇪🇸"
     },
     {
       "Code": "pl-en",
       "Name": "Polish-English",
       "SourceLanguage": "Polish",
       "TargetLanguage": "English",
-      "SourceScript": "Latin",
-      "TargetScript": "Latin",
-      "SourceFlag": "PL",
-      "TargetFlag": "EN"
+      "SourceFlag": "🇵🇱",
+      "TargetFlag": "🇬🇧"
     },
     {
       "Code": "en-pl",
       "Name": "English-Polish",
       "SourceLanguage": "English",
       "TargetLanguage": "Polish",
-      "SourceScript": "Latin",
-      "TargetScript": "Latin",
-      "SourceFlag": "EN",
-      "TargetFlag": "PL"
+      "SourceFlag": "🇬🇧",
+      "TargetFlag": "🇵🇱"
     }
   ]
 } 
