@@ -35,11 +35,19 @@ A console-based translator application that works with multiple language pairs u
 
 ### Running the Application
 
-From the command line, navigate to the project directory and run:
+You can run the application in two ways:
 
-```
-dotnet run
-```
+1. Using Visual Studio:
+   - Open the solution in Visual Studio
+   - Set the `Translator` project as the startup project
+   - Click the "Start" button or press F5
+
+2. Using Command Line:
+   - Navigate to the `Translator` directory
+   - Run the following command:
+   ```
+   dotnet run
+   ```
 
 ### Navigation
 
@@ -57,8 +65,18 @@ To add new words or phrases:
 
 ## Running Tests
 
-```
-dotnet test translator.Tests
-```
+You can run the tests in two ways:
+
+1. Using Visual Studio:
+   - Open the solution in Visual Studio
+   - Right-click on the solution in Solution Explorer
+   - Select "Run All Tests"
+
+2. Using Command Line:
+   - Navigate to the solution directory
+   - Run the following command:
+   ```
+   dotnet test
+   ```
 
 See the [test README](translator.Tests/README.md) for more details. 
